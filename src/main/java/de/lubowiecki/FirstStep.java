@@ -25,6 +25,23 @@ public class FirstStep { // Klassenname
 
         // Methodenaufruf
         fs.machWas(); // Aufruf der Methode auf einem Objekt
+
+        // int = Ganzzahl
         int zahl = 10; // lokale Variable (nur in dieser Methode sichtbar)
+
+        // zahl = 10.5; // Error: Die Zahl ist zu "groß" für diese Variable
+        zahl = 2_000; // int = NUR GANZZAHLEN (_ ist optional)
+        System.out.println(zahl);
+
+        // Variable für Text
+        String name = "Peter Parker";
+        // name = 1; // Error: 1 ist kein Text
+
+        // Gleitkommazahl
+        double zahl2 = 10.5; // Deklaration und Initialisierung
+        System.out.println(zahl2);
+        System.out.println(zahl + zahl2);
+        zahl2 = 1; // Neuzuweisung: Box zahl2 ist groß genug. Inhalt der Box wird ersetzt
+        System.out.println(zahl2);
     }
 }
