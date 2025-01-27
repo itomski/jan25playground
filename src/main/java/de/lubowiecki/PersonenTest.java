@@ -45,5 +45,7 @@ public class PersonenTest {
         System.out.println(p2);
         System.out.println(p3);
 
+        // Das ist ein Kommentar
+
     }
 }
