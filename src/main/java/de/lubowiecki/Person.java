@@ -24,7 +24,28 @@ public class Person {
         this.fuehrerschein = fuehrerschein;
     }
 
+    // Methoden führen Aktivitäten auf Basis der Eigenschaften aus
     public void sagHallo() {
         System.out.println("Hallo! Mein Name ist " + vorname + " " + nachname);
+    }
+
+    public void sagAlter() {
+        System.out.println("Ich bin " + alter + " Jahre alt.");
+    }
+
+    public void hatFuehrerschein() {
+        if(fuehrerschein) {
+            System.out.println("Ich habe einen Führerschein.");
+        }
+        else {
+            System.out.println("Ich habe noch keinen Führerschein.");
+        }
+    }
+
+    // Methode zum konvertieren in einen String
+
+    @Override
+    public String toString() {
+        return vorname + ", " + nachname + ", " + alter + ", " + fuehrerschein;
     }
 }
