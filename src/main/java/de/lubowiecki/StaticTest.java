@@ -54,5 +54,17 @@ public class StaticTest {
         wieLangeNoch(LocalDate.of(2025, 10, 5));
         wieLangeNoch(LocalDate.of(2028, 7, 22));
 
+        System.out.println();
+
+        double erg = powQuadrat(10.0);
+        System.out.println(erg);
+
+        System.out.println(powQuadrat(20.0));
     }
+
+    // Statische Methoden verarbeiten die Parameter
+    public static double powQuadrat(double zahl) {
+        return zahl * zahl; // return = wird aus der Methode an den Aufrufer zurückgegeben
+    }
+
 }

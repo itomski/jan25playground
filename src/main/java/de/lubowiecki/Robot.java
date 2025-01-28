@@ -17,7 +17,12 @@ public class Robot {
         this.y = y;
     }
 
-    public void goUp() {
+
+    // public = Methode ist von überall verwendbar
+    // void = Rückgabetyp. void heißt, es gibt keine Rückgabe
+    // goUp = Name der Methode
+    // () = Parameterklammer
+    public void goUp() { // Alles innerhalb dieser Klammern gehört zu dieser Methode
         x++;
     }
 
