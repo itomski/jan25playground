@@ -21,5 +21,8 @@ public class InstanzTest {
 
         System.out.println(r2d2);
         System.out.println(c3po);
+
+        r2d2 = null; // Objekt-Referenz wird gelöscht
+        System.out.println(r2d2);
     }
 }

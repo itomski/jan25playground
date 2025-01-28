@@ -11,10 +11,14 @@ public class Robot {
         // x und y starten bei 0
     }
 
-    public Robot(String name, int x, int y) {
+    // Methodenparameter sind lokale Variablen
+    public Robot(String name, int x, int y /*, int z */) {
+        // name = lokale Variable (Methodenparameter)
+        // this.name = Instanz Eigenschaft
         this.name = name;
         this.x = x;
         this.y = y;
+        // this muss verwendet werden, wenn Eigenschaften und lokale Variablen gleich heißen
     }
 
 
