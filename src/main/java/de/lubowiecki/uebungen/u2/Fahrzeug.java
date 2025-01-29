@@ -4,6 +4,7 @@ public class Fahrzeug {
 
     public static int anzahl;
 
+    // Zustand des Fahrzeugs wired durch seine Instanzeigenschaften beschrieben
     private String kennzeichen;
     private String marke;
     private String modell;
@@ -18,6 +19,7 @@ public class Fahrzeug {
         nr = ++anzahl;
     }
 
+    // Durch Instanzmethoden kann man Eigeschaften verändern oder abfragen
     public void fahre50Km() {
         kmStand += 50; // kmStand = kmStand + 50;
     }
@@ -26,7 +28,6 @@ public class Fahrzeug {
         if(km >= 0)
             kmStand += km; // kmStand = kmStand + km;
     }
-
 
     @Override
     public String toString() {
