@@ -14,7 +14,6 @@ public class Augaben {
     oder ungerade ist.
      */
 
-
     /* 3
     Schreibe ein Programm, das basierend auf dem Alter des Benutzers eine
     Alterskategorie zurückgibt. Der Benutzer gibt sein Alter ein, und das
