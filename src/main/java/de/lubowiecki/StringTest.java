@@ -72,6 +72,7 @@ public class StringTest {
             System.out.println(t);
         }
 
+        // TODO: Verwendung von GUI
         String name = JOptionPane.showInputDialog("Name");
         JOptionPane.showMessageDialog(null, "Dein Name ist " + name);
 
