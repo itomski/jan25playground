@@ -15,7 +15,7 @@ public class Todos {
     // final = Variable kann sich nicht ändern
     // int = Datentyp
     // SIZE = Variablenname
-    private static final int SIZE = 10; // Klassenvariable: Scope: in Allen Methoden dieser Klasse sichtbar
+    private static final int SIZE = 3; // Klassenvariable: Scope: in Allen Methoden dieser Klasse sichtbar
 
     // Es bleibt IMMER ein String-Array mit Größe 10, Inhalt darf sich änedrn
     private static final String[] todos = new String[SIZE]; // Array mit 10 Positionen
@@ -24,9 +24,18 @@ public class Todos {
 
     private static final Scanner scanner = new Scanner(System.in);
 
+    private static final String KEYS = "\n***********************************************" +
+                                        "\n\t create: Neues Todo " +
+                                        "\n\t print: Todos anzeigen " +
+                                        "\n\t help: Hilfe " +
+                                        "\n\t exit: Programm verlassen " +
+                                        "\n***********************************************";
+
     public static void main(String[] args) {
 
         // final int SIZE = 10; // lokale Konstante: Scope = nur die Main-Methode
+
+        System.out.println(KEYS);
 
         app: while(true) { // Endlosschleife
 
@@ -35,6 +44,7 @@ public class Todos {
             switch(auswahl) {
                 case "create" -> createTodo();
                 case "print" -> printTodos();
+                case "help" -> System.out.println(KEYS);
                 case "exit" -> {
                     break app; // bricht die while-schleife ab
                 }
@@ -55,6 +65,10 @@ public class Todos {
         System.out.print("\nTodo: ");
         String eingabe = scanner.nextLine(); // Liest die ganze Zeile ein ikl. Leerzeichen
         todos[next] = eingabe; // Wert von der Konsole wird im Array auf der Position 0 abgeleget
+
+        // TODO: Daten in eien Datei speichern
+
+        // Die Position für das nächste Todo um 1 hochzählen
         next++; // Hier kann prefix (++next) oder postfix (next++) benutzt werden
             /*
             Array
