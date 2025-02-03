@@ -10,6 +10,9 @@ public class ArrayTest3 {
         int[] zahlen = machWasGanAnderes();
         System.out.println(zahlen[3]);
 
+        // Name der anderen Klasse und danach die Klassenmethode (static)
+        AndereKlasse.printHallo();
+
     }
 
     // Variable zahl wird beim Aufruf durch den konkreten Parameter ersetzt
