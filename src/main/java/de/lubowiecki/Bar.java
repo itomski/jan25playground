@@ -1,4 +1,4 @@
-package de.lubowiecki.uebungen.u6;
+package de.lubowiecki;
 
 public class Bar {
 

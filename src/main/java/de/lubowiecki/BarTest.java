@@ -1,4 +1,4 @@
-package de.lubowiecki.uebungen.u6;
+package de.lubowiecki;
 
 public class BarTest {
 
@@ -15,5 +15,8 @@ public class BarTest {
         System.out.printf("Die Fläche ist %.2f qm", GeoUtils.flaeche(100, 200)); // Auch ok
 
         String erg = String.format("Die Fläche ist %.2f qm", flaeche); // Formatierte Rückgabe
+
+        // Statische Methoden verarbeiten Parameter und brauchen keinen Objektzustand.
+
     }
 }
