@@ -50,5 +50,43 @@ public class ArraysUtilsTest {
         Arrays.fill(namen, "Leer");
         System.out.println(Arrays.toString(namen));
 
+        System.out.println();
+
+        // Arrays haben einen nicht veränderbare Größe
+        int[] arr = {5,7,8,22}; // Schreibweise nur bei gleichzeitiger Deklaration erlaubt
+        System.out.println(arr.length);
+        // arr[4] = 10; // ArrayIndexOutOfBoundsException
+        // arr = {5,7,8,22,17}; // Error
+        arr = new int[]{5,7,8,22,17}; // Ok
+        System.out.println(Arrays.toString(arr));
+
+        arr = Arrays.copyOf(arr, 10); // Erzeugt ein neues, größeres Array mit den alten Werten
+        System.out.println(Arrays.toString(arr));
+
+        arr = new int[1_000_000_000];
+        arr[9_500_000] = 10;
+        System.out.println(arr[9_500_002]);
+        arr = null; // Array wird für GC (Müllabfuhr) freigegeben
+
+        int[][][][][] arr5d = new int[2][2][2][2][2]; // 2 * 8 * 10 * 100 * 5 * 32bit = 2.560.000 bit
+
+        /*
+        0: {
+            0: { 0:
+                1:
+            }
+            1:
+        },
+        1: {
+            0:
+            1:
+        },
+         */
+
+        // arr = new int[-10]; // NegativeArraySizeException - Größe des Arrays muss immer positiv sein
+        arr = new int[0]; // Ok - Kann keine Elemente aufnehmen
+
+        System.out.println("Ende");
+
     }
 }
