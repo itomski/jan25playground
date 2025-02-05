@@ -22,4 +22,12 @@ public class Aufgabe {
 
      */
 
+    public static void main(String[] args) {
+
+        ProductFaker faker = new ProductFaker();
+
+        for(Product p : faker.fake(1000)) {
+            System.out.println(p);
+        }
+    }
 }
