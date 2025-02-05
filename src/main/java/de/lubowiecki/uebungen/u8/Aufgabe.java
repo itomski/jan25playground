@@ -44,6 +44,12 @@ public class Aufgabe {
     Der Spieler wird gefragt, ob er noch ein weiteres Mal spielen möchte.
      */
 
+    /*
+    Übung 4 (Sehr einfach)
+    Schreibe ein Programm, welches 10 mal nach einer Zahl fragt.
+    Nach jeder Eingabe wird die Zahl zu den Zahlen davor addiert und angezeigt.
+
+     */
 
 
 }
