@@ -14,4 +14,20 @@ public class Aufgabe {
     Verwendet ein 2d String-Array.
      */
 
+    /*
+    <books>
+        <book>
+            <title>Kochen ohne Fett</title>
+            <description>Kochen ohne Fett</description>
+        </book>
+        <book>
+            <title>Kochen ohne Fett</title>
+            <description>Kochen ohne Fett</description>
+        </book>
+        <book>
+            <title>Kochen ohne Fett</title>
+            <description>Kochen ohne Fett</description>
+        </book>
+    </books>
+     */
 }
