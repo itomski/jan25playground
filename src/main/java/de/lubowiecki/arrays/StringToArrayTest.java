@@ -25,7 +25,6 @@ public class StringToArrayTest {
         eingabe = scanner.nextLine();
 
         teile = eingabe.split(""); // Zerlegen nach einzelnen Zeichen
-        System.out.println(Arrays.toString(teile));
         for(String teil : teile) {
             switch(teil.toUpperCase()) {
                 case "L" -> System.out.println("Links");
@@ -35,5 +34,6 @@ public class StringToArrayTest {
                 default -> System.out.println("Ungültig");
             }
         }
+
     }
 }

@@ -1,4 +1,4 @@
-package de.lubowiecki;
+package de.lubowiecki.arrays;
 
 public class ArrayTest2 {
 

@@ -1,4 +1,4 @@
-package de.lubowiecki;
+package de.lubowiecki.arrays;
 
 import java.util.Arrays;
 

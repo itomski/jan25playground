@@ -19,7 +19,7 @@ public class Aufgabe {
     Übung 2
     Schreibe ein Konsolen-Programm zur Simulation eines Roboters. Der Roboter soll auf einem
     Spielfeld von 20 x 20 Feldern frei bewegt werden können.
-    Das Spielfeld inkl. Der aktuellen Position des Roboters soll nach jeder Bewegung angezeigt
+    Das Spielfeld inkl. der aktuellen Position des Roboters soll nach jeder Bewegung angezeigt
     werden. Die Bewegung soll durch eine Zeichenkette von Richtungen vorgegeben werden können.
 
     Beispiel:
@@ -50,6 +50,4 @@ public class Aufgabe {
     Nach jeder Eingabe wird die Zahl zu den Zahlen davor addiert und angezeigt.
 
      */
-
-
 }

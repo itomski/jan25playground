@@ -1,4 +1,6 @@
-package de.lubowiecki;
+package de.lubowiecki.arrays;
+
+import de.lubowiecki.AndereKlasse;
 
 public class ArrayTest3 {
 
