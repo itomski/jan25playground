@@ -46,7 +46,7 @@ public class Pilzsuche {
     public static void main(String[] args) {
         Pilzsuche pilzsuche = new Pilzsuche(10, 10);
         pilzsuche.pilzeVerteilen(15);
-        pilzsuche.waldAusgeben();
+        pilzsuche.waldAusgeben(false);
         pilzsuche.starteSuche(10);
     }
 
@@ -75,9 +75,9 @@ public class Pilzsuche {
             }
 
             versuch++;
+            waldAusgeben(true);
 
             // TODO: Spiel vorzeitig beenden, wenn alle Pilze gefunden sind
-
         }
 
         System.out.println("Spiel ist beendet.");
@@ -105,11 +105,20 @@ public class Pilzsuche {
     }
 
     // Instanzmethoden brauchen eine Objekt
-    public void waldAusgeben() {
+    public void waldAusgeben(boolean nurGefundeneAnzeigen) {
         // Ausgabe
         for(int[] zeile : wald) {
             for(int reihe : zeile) {
-                System.out.print(reihe + " ");
+                if(nurGefundeneAnzeigen) {
+                    if (reihe == 2) {
+                        System.out.print("X ");
+                    } else {
+                        System.out.print("? ");
+                    }
+                }
+                else {
+                    System.out.print(reihe + " ");
+                }
             }
             System.out.println(); // Zeilenumbruch
         }
