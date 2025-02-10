@@ -32,6 +32,28 @@ public class StringTest {
 
         Long l1 = 10l;
 
+        System.out.println("Das ist das Haus von Nikigraus.");
 
+        String name = "Peter";
+        System.out.println("Das ist das Haus von " + name + "!");
+
+        // Standard = rechtsbündig
+        // - = linksbündig
+        final String TPL = "Das ist das %20s von %-20s! %d %.2f %n";
+        System.out.printf(TPL, "Fahrrad", name, 15, 10.7);
+        System.out.printf(TPL, "Terrasse", "Carol", 0, 22.8);
+        System.out.printf(TPL, "Gartenhaus", "Bruce", 7, 18.0);
+        System.out.printf(TPL, "Pool","Tony", 9, 1.5);
+
+        System.out.println();
+
+        final String ROW_TPL = "| %-16s | %-4s | %-16s | %-16s | \n";
+
+        // Gibt den zusammengestzten String auf der Konsole aus
+        System.out.printf(ROW_TPL, "Peter", 25, "Spriderman", "New York");
+        System.out.printf(ROW_TPL, "Bruce", 42, "Hulk", "New York");
+
+        // Liefert den zusammengestzten String zurück
+        String s = String.format(ROW_TPL, "Peter", 25, "Spriderman", "New York");
     }
 }
