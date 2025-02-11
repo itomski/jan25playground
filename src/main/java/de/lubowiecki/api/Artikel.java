@@ -5,6 +5,10 @@ import java.time.LocalDate;
 
 public class Artikel {
 
+    // Klassenvariablen und Instanzvariablen werden mit Standardwerten initialisiert
+    // Komplexe Datentypen werden mit null belegt
+    // primitive Datentypen bekommen 0, 0.0, false etc.
+
     private String name;
 
     private int anzahl;
@@ -17,22 +21,21 @@ public class Artikel {
 
     public Artikel() {
         // super(); // Aufruf des Konstruktors der Elternklasse (Object)
-        System.out.println("NO-PARAM-K");
+        // System.out.println("NO-PARAM-K");
     }
 
     public Artikel(String name, int anzahl) {
-        // super();
+        this(); // Führt den Parameterlosen Konstruktor aus
         this.name = name;
         setAnzahl(anzahl);
-        System.out.println("2-PARAM-K");
+        // System.out.println("2-PARAM-K");
     }
 
-    public Artikel(String name, int anzahl, double maxPreis, boolean gekauft, LocalDate datum) {
+    public Artikel(String name, int anzahl, double maxPreis, LocalDate datum) {
         this(name, anzahl); // Aufruf des Konstruktors mit 2 Parametern. super wird hier nicht mehr verwendet
         setMaxPreis(maxPreis);
-        this.gekauft = gekauft;
         setDatum(datum);
-        System.out.println("5-PARAM-K");
+        // System.out.println("5-PARAM-K");
     }
 
     public String getName() {
@@ -73,5 +76,17 @@ public class Artikel {
 
     public void setDatum(LocalDate datum) {
         if(datum.isAfter(LocalDate.now().minusDays(1))) this.datum = datum;
+    }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Artikel{");
+        sb.append("name='").append(name).append('\'');
+        sb.append(", anzahl=").append(anzahl);
+        sb.append(", maxPreis=").append(maxPreis);
+        sb.append(", gekauft=").append(gekauft);
+        sb.append(", datum=").append(datum);
+        sb.append('}');
+        return sb.toString();
     }
 }
