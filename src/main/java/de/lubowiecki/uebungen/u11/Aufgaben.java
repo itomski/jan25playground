@@ -17,8 +17,4 @@ public class Aufgaben {
     Es gibt zwei Methoden: bewegen und lautGeben
     Alles, was in den Klassen gleich ist, soll in einer Elterklasse abgelegt werden
     */
-
-
-
-
 }
