@@ -1,5 +1,8 @@
 package de.lubowiecki.vererbung;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class VererbungTest2 {
 
     public static void main(String[] args) {
@@ -27,7 +30,22 @@ public class VererbungTest2 {
         ((Hund)t1).spieleMitEinemBall(); // Mit einem Cast geht es
 
         t1 = new Katze();
-        ((Hund)t1).spieleMitEinemBall(); // ClassCastException, Objekttyp ist Katze
+        //((Hund)t1).spieleMitEinemBall(); // ClassCastException, Objekttyp ist Katze
+
+        System.out.println();
+
+        List<Tier> tiere = new ArrayList<>();
+        tiere.add(new Hund());
+        tiere.add(new Katze());
+        tiere.add(new Hund());
+        tiere.add(new Wurm());
+        tiere.add(new Lindwurm());
+
+        // Hier wird ein Typ verwendet, den alle enthaltenen Objekte gemeinsam haben: Tier
+        for(Tier t : tiere) {
+            if(t instanceof Hund) // Prüft, ob das Objekt auf dem Heap ein Hund ist
+                t.zeigeVerhalten(); // wird auf dem echten Objekt auf dem Heap ausgeführt
+        }
     }
 }
 
