@@ -22,6 +22,12 @@ public class InterfaceTest {
         l = new Lampe();
         l.leuchten();
 
+        // Instanzmethoden werden auf dem Objekttyp (rechte Seite) ausgeführt
+        // Klassenmethoden werden auf dem Referenztyp (linke Seite) ausgeführt
+        GibtLicht l2 = new Fahrrad();
+
+        // Ein Interface kann auch seit java 1.7 statische Methoden enthalten
+        // Statische-Methoden eiens Interfaces werden nicht vererbt
     }
 
     // Innere-Klasse (nicht Top-Level) können auch static, protected und private sein
