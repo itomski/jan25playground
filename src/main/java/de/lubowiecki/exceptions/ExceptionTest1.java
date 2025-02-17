@@ -31,7 +31,6 @@ public class ExceptionTest1 {
         // Uncheckedexceptions werden vom Kompiler nicht geprüft
         // Sie tauchen zur Laufzeit auf
         // Behandlung der Exception kann freiwillig erfolgen
-
         try {
             int[] arr = new int[50];
             arr[52] = 15; // ArrayIndexOutOfBoundsException

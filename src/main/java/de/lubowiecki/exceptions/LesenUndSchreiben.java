@@ -60,7 +60,7 @@ public class LesenUndSchreiben {
             // Verwenden des Writers
             out.append("Das ist das Haus von Nikigraus\n");
 
-            // Am ende des Blocks wird der Writer automatisch geschlossen
+            // Am Ende des Blocks wird der Writer automatisch geschlossen
         }
         catch(IOException e) {
             System.out.println("Es konnte nicht in die Datei geschrieben werden.");

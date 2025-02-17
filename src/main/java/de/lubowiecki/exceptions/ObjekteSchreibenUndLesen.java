@@ -68,8 +68,6 @@ public class ObjekteSchreibenUndLesen {
             oos.writeObject(produkte); // Schreibt die Liste inkl. der Produkte in die Datei
         }
         catch(IOException e) {
-            System.out.println("Daten konnten nicht gespeichert werden.");
-            System.out.println(e.getMessage()); // Zeigt die Nachricht der Exception
             e.printStackTrace(); // Komplette Meldung - Nur fürs Debugging gedacht
         }
     }
