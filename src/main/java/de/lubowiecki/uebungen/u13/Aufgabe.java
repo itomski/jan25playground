@@ -11,16 +11,6 @@ public class Aufgabe {
     Beim Neustart des Programms sollen die Altdaten angezeigt werden.
      */
 
-
-
-
-
-
-
-
-
-
-
     /*
     Aufgabe 2
     Schreibe ein klein Programm.
@@ -36,6 +26,18 @@ public class Aufgabe {
     Lösungsansatz: Lese den Inhalt Zeilenweise und zerlege dann die Zeile in einzelne Wörter.
     Erst dann zähle das Vorkommen in dieser Zeile :-)
      */
+
+    /*
+    Aufgabe 3
+    Schreibe ein klein Programm.
+    Das Programm fordert dich auf eine Zahl einzugeben.
+    Wird statt einer Zahl ein Buchstabe oder Wort eingegeben wir normalerweise eine Exception geworfen.
+    Behandle diese Exception so, dass stattdessen die sinnvolle Meldung erfolgt und der
+    Benutzer eine neue Zahl eingeben kann.
+     */
+
+
+
 
 
 }
