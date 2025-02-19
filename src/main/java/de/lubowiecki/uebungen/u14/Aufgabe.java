@@ -1,6 +1,6 @@
-package de.lubowiecki.uebungen;
+package de.lubowiecki.uebungen.u14;
 
-public class u14 {
+public class Aufgabe {
 
     /*
     Schreibe ein Programm zur Simmulation eines Staubsaugers.
@@ -15,6 +15,4 @@ public class u14 {
     Diese führen zu passenden Anzeigen auf der Konsole.
     Viel Spaß
     */
-
-
 }
