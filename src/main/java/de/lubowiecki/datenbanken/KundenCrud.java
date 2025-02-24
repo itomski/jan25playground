@@ -30,6 +30,20 @@ public class KundenCrud {
         }
     }
 
+    public boolean insert(Kunde kunde) throws SQLException {
+
+        try(Connection verbindung = DbUtility.getConnection();
+            Statement stmt = verbindung.createStatement()) {
+
+            // INSERT INTO " + TABLE + " (id, vorname, nachname) VALUES(NULL, 'Bruce', 'Banner')
+            final String SQL = "INSERT INTO " + TABLE + " (vorname, nachname) " +
+                                    "VALUES('%s', '%s')"; // %s ist ein Platzhalter für einen String
+
+            // executeUpdate liefert die Anzahl der Zeilen die geändert/hinzugefügt wurden
+            return stmt.executeUpdate(String.format(SQL, kunde.getVorname(), kunde.getNachname())) > 0; // Das Einfügen ist ein Update des Inhalts einer Tabelle
+        }
+    }
+
     private Kunde create(ResultSet zeile) throws SQLException {
         Kunde k = new Kunde();
         // Informationen aus Spalten werden auf Objekteigenschaften zugewiesen
@@ -39,7 +53,4 @@ public class KundenCrud {
         k.setAktiv(zeile.getBoolean("aktiv"));
         return k;
     }
-
-
-
 }
