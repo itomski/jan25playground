@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c86822ac-dad7-4899-99a3-c1e7d8ad3edf" name="Changes" comment="Aufgabe" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;itomski&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/itomski/jan25playground.git&quot;,
+    &quot;accountId&quot;: &quot;ab6f833d-7ef4-432c-8799-aa6b199455e4&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2sf2pqS4SC93Ss24seBrhBihxZP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayListTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CrudTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DateTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DateTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeclareTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeclareTestChecked.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EinkaufslistenTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualsTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualsTest (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualsTest (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualsTest (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionTest3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GCTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterfaceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterfaceTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KaffeeAutomat.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LesenUndSchreiben.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListenTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MulticatchTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjektBeziehungen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjekteSchreibenUndLesen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OverloadingTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OwnExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pilzsuche.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrinterTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleFactoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingletonTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringBuilderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VerbindungsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VererbungTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.VererbungTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VererbungTest2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/tlubowiecki/IdeaProjects/jan25playground/src/main/java/de/lubowiecki/uebungen&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tlubowiecki/IdeaProjects/jan25playground&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="de.lubowiecki.patterns.factory" />
+      <recent name="de.lubowiecki.api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CrudTest">
+    <configuration name="CrudTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.datenbanken.CrudTest" />
+      <module name="jan25playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.lubowiecki.datenbanken.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.time.DateTest1" />
+      <module name="jan25playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.lubowiecki.time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.time.DateTest2" />
+      <module name="jan25playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.lubowiecki.time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.patterns.factory.SimpleFactoryTest" />
+      <module name="jan25playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.lubowiecki.patterns.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerbindungsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.datenbanken.VerbindungsTest" />
+      <module name="jan25playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.lubowiecki.datenbanken.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CrudTest" />
+        <item itemvalue="Application.VerbindungsTest" />
+        <item itemvalue="Application.SimpleFactoryTest" />
+        <item itemvalue="Application.DateTest2" />
+        <item itemvalue="Application.DateTest1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c86822ac-dad7-4899-99a3-c1e7d8ad3edf" name="Changes" comment="" />
+      <created>1738832494283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738832494283</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Update: Pilzsuche">
+      <option name="closed" value="true" />
+      <created>1738837515406</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738837515406</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update: Pilzsuche">
+      <option name="closed" value="true" />
+      <created>1738838881800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738838881800</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update: OOP">
+      <option name="closed" value="true" />
+      <created>1738847844517</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738847844517</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update: OOP">
+      <option name="closed" value="true" />
+      <created>1738930509225</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738930509225</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update: Wrapper">
+      <option name="closed" value="true" />
+      <created>1739178065477</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739178065477</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update: Wrapper und Arrays">
+      <option name="closed" value="true" />
+      <created>1739189255986</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739189255986</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update: ArrayList">
+      <option name="closed" value="true" />
+      <created>1739192102307</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739192102307</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update: Aufgaben">
+      <option name="closed" value="true" />
+      <created>1739193450976</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739193450976</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update: ArrayList">
+      <option name="closed" value="true" />
+      <created>1739266401825</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739266401825</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update: Einkaufsliste">
+      <option name="closed" value="true" />
+      <created>1739271516593</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739271516593</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update: Aufgabe">
+      <option name="closed" value="true" />
+      <created>1739275879387</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739275879387</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update: Equals / HashCode">
+      <option name="closed" value="true" />
+      <created>1739353214879</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739353214879</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update: Vererbung">
+      <option name="closed" value="true" />
+      <created>1739357886404</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739357886404</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update: Aufgaben">
+      <option name="closed" value="true" />
+      <created>1739363606223</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739363606223</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update: Vererbung">
+      <option name="closed" value="true" />
+      <created>1739436977623</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1739436977623</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update: Interfaces">
+      <option name="closed" value="true" />
+      <created>1739442070218</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1739442070219</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Update: Interfaces">
+      <option name="closed" value="true" />
+      <created>1739450852862</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1739450852862</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update: Interfaces">
+      <option name="closed" value="true" />
+      <created>1739523687506</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1739523687506</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Update: Generics und JavaDocs">
+      <option name="closed" value="true" />
+      <created>1739527849183</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1739527849183</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Update: Generics und JavaDocs">
+      <option name="closed" value="true" />
+      <created>1739530431478</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1739530431478</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Update: Speichern und Lesen">
+      <option name="closed" value="true" />
+      <created>1739787303968</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1739787303968</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Update: Speichern und Lesen">
+      <option name="closed" value="true" />
+      <created>1739789193617</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1739789193617</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Update: Speichern und Lesen">
+      <option name="closed" value="true" />
+      <created>1739796063856</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1739796063856</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Update: Aufgaben">
+      <option name="closed" value="true" />
+      <created>1739801843356</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1739801843356</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Update: Exceptions">
+      <option name="closed" value="true" />
+      <created>1739869144438</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1739869144438</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Update: Exceptions">
+      <option name="closed" value="true" />
+      <created>1739874400899</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1739874400899</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Update: Exceptions">
+      <option name="closed" value="true" />
+      <created>1739876564257</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1739876564257</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Update: Exceptions">
+      <option name="closed" value="true" />
+      <created>1739880994635</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1739880994635</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Update: JavaFX">
+      <option name="closed" value="true" />
+      <created>1739971493022</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1739971493022</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Update: Patterns, Singleton">
+      <option name="closed" value="true" />
+      <created>1740049065225</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1740049065225</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Update: Patterns, Singleton">
+      <option name="closed" value="true" />
+      <created>1740055372580</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1740055372580</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Update: Time/Date API">
+      <option name="closed" value="true" />
+      <created>1740127282238</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1740127282238</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Patterns: Factory">
+      <option name="closed" value="true" />
+      <created>1740134578243</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1740134578243</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Patterns: Aufgabe">
+      <option name="closed" value="true" />
+      <created>1740140591606</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1740140591606</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Patterns: JDBC">
+      <option name="closed" value="true" />
+      <created>1740392527355</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1740392527355</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Patterns: JDBC">
+      <option name="closed" value="true" />
+      <created>1740395149270</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1740395149270</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Patterns: Aufgabe">
+      <option name="closed" value="true" />
+      <created>1740401422017</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1740401422017</updated>
+    </task>
+    <task id="LOCAL-00038" summary="JDBC: PreparedStatements">
+      <option name="closed" value="true" />
+      <created>1740471576283</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1740471576283</updated>
+    </task>
+    <task id="LOCAL-00039" summary="JDBC: PreparedStatements">
+      <option name="closed" value="true" />
+      <created>1740474071397</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1740474071397</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Aufgabe">
+      <option name="closed" value="true" />
+      <created>1740488028389</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1740488028389</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="content.txt" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update: Pilzsuche" />
+    <MESSAGE value="Update: OOP" />
+    <MESSAGE value="Update: Wrapper" />
+    <MESSAGE value="Update: Wrapper und Arrays" />
+    <MESSAGE value="Update: ArrayList" />
+    <MESSAGE value="Update: Einkaufsliste" />
+    <MESSAGE value="Update: Aufgabe" />
+    <MESSAGE value="Update: Equals / HashCode" />
+    <MESSAGE value="Update: Vererbung" />
+    <MESSAGE value="Update: Interfaces" />
+    <MESSAGE value="Update: Generics und JavaDocs" />
+    <MESSAGE value="Update: Speichern und Lesen" />
+    <MESSAGE value="Update: Aufgaben" />
+    <MESSAGE value="Update: Exceptions" />
+    <MESSAGE value="Update: JavaFX" />
+    <MESSAGE value="Update: Patterns, Singleton" />
+    <MESSAGE value="Update: Time/Date API" />
+    <MESSAGE value="Patterns: Factory" />
+    <MESSAGE value="Patterns: JDBC" />
+    <MESSAGE value="Patterns: Aufgabe" />
+    <MESSAGE value="JDBC: PreparedStatements" />
+    <MESSAGE value="Aufgabe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aufgabe" />
+  </component>
+</project>
