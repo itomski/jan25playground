@@ -15,7 +15,7 @@ public class CrudTest {
         try {
 
             // Einfügen
-//            if(crud.insert(k1)) {
+//            if(crud.save(k1)) {
 //                System.out.println("Wurde gespeichert!");
 //            }
 //            else {
@@ -34,7 +34,8 @@ public class CrudTest {
                 k.setNachname("Rogers");
                 k.setAktiv(true);
                 // Datensatz ändern
-                crud.update(k);
+                //crud.update(k);
+                crud.save(k);
             }
             else {
                 System.out.println("Kein passender Kunde gefunden.");

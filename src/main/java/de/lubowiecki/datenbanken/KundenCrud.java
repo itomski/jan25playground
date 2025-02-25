@@ -44,22 +44,40 @@ public class KundenCrud {
         }
     }
 
-    public boolean insert(Kunde kunde) throws SQLException {
+    public List<Kunde> findByVorname(String vorname) throws SQLException {
+        final String SQL = "SELECT * FROM " + TABLE + " WHERE vorname = ?";
+        return findBy(SQL, vorname);
+    }
 
-        // Hier ist eine SQL-Injection möglich
-//        try(Connection verbindung = DbUtility.getConnection();
-//            Statement stmt = verbindung.createStatement()) {
-//
-//            // INSERT INTO " + TABLE + " (id, vorname, nachname) VALUES(NULL, 'Bruce', 'Banner')
-//            final String SQL = "INSERT INTO " + TABLE + " (vorname, nachname) " +
-//                                    "VALUES('%s', '%s')"; // %s ist ein Platzhalter für einen String
-//
-//            // executeUpdate liefert die Anzahl der Zeilen die geändert/hinzugefügt wurden
-//            return stmt.executeUpdate(String.format(SQL, kunde.getVorname(), kunde.getNachname())) > 0; // Das Einfügen ist ein Update des Inhalts einer Tabelle
-//        }
+    public List<Kunde> findByNachname(String nachname) throws SQLException {
+        final String SQL = "SELECT * FROM " + TABLE + " WHERE nachname = ?";
+        return findBy(SQL, nachname);
+    }
+
+    public List<Kunde> findByAktiv(boolean aktiv) throws SQLException {
+        final String SQL = "SELECT * FROM " + TABLE + " WHERE aktiv = ?";
+        return findBy(SQL, aktiv); // Autoboxing von boolean zu Boolean
+    }
+
+    private List<Kunde> findBy(String sql, Object value) throws SQLException {
+
+        try(Connection verbindung = DbUtility.getConnection();
+            PreparedStatement stmt = verbindung.prepareStatement(sql)) {
+
+            stmt.setObject(1, value);
+            ResultSet daten = stmt.executeQuery();
+
+            List<Kunde> kunden = new ArrayList<>();
+            while(daten.next()) {
+                kunden.add(create(daten));
+            }
+            return kunden;
+        }
+    }
+
+    private boolean insert(Kunde kunde) throws SQLException {
 
         // Sicher gegen SQL-Injection
-
         final String SQL = "INSERT INTO " + TABLE + " (vorname, nachname) VALUES(?, ?)";
 
         // prepareStatement(SQL) : Übergibt ein Template für den Befehl an die Datenbank
@@ -77,7 +95,16 @@ public class KundenCrud {
         }
     }
 
-    public boolean update(Kunde kunde) throws SQLException {
+    public boolean save(Kunde kunde) throws SQLException {
+        if(kunde.getId() > 0) { // Hat der Kunde eine ID, dann ist er bereits in der DB enthalten
+            return update(kunde); // dann update
+        }
+        else {
+            return insert(kunde);
+        }
+    }
+
+    private boolean update(Kunde kunde) throws SQLException {
 
         final String SQL = "UPDATE " + TABLE + " SET vorname = ?, nachname = ?, aktiv = ? WHERE id = ?";
 
@@ -95,7 +122,22 @@ public class KundenCrud {
         }
     }
 
+    private boolean delete(Kunde kunde) throws SQLException {
+        return delete(kunde.getId());
+    }
 
+    private boolean delete(int id) throws SQLException {
+
+        final String SQL = "DELETE FROM " + TABLE + " WHERE id = " + id;
+
+        // Das PreparedStatement arbeitet etwas langsamer als das "normale" Statement
+        try(Connection verbindung = DbUtility.getConnection();
+            Statement stmt = verbindung.createStatement()) {
+            return stmt.executeUpdate(SQL) > 0;
+        }
+    }
+
+    // Wandelt relationale Daten in Java-Objekte um
     private Kunde create(ResultSet zeile) throws SQLException {
         Kunde k = new Kunde();
         // Informationen aus Spalten werden auf Objekteigenschaften zugewiesen
