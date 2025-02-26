@@ -30,6 +30,14 @@
             <version>3.49.1.0</version>
         </dependency>
 
+        <!--
+        <dependency>
+            <groupId>de.lubowiecki</groupId>
+            <artifactId>orm</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        -->
+
     </dependencies>
 
 </project>

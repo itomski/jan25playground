@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c86822ac-dad7-4899-99a3-c1e7d8ad3edf" name="Changes" comment="Lambdas">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/SQLiteUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/SqLiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/lambdas/StreamTest.java" afterDir="false" />
+    <list default="true" id="c86822ac-dad7-4899-99a3-c1e7d8ad3edf" name="Changes" comment="SQLite">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/AbstractCrud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/AbstractEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/Benutzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/BenutzerCrud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/libtest/Benutzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/libtest/BenutzerCrud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/libtest/BenutzerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/SqLiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/SqLiteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +55,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArrayListTest.executor": "Run",
+    "Application.BenutzerTest.executor": "Run",
     "Application.CrudTest.executor": "Run",
     "Application.DateTest1.executor": "Run",
     "Application.DateTest2.executor": "Run",
@@ -106,13 +112,13 @@
       <recent name="de.lubowiecki.api" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SqLiteTest">
-    <configuration name="InjectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.datenbanken.InjectionTest" />
+  <component name="RunManager" selected="Application.BenutzerTest">
+    <configuration name="BenutzerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.libtest.BenutzerTest" />
       <module name="jan25playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.lubowiecki.datenbanken.*" />
+          <option name="PATTERN" value="de.lubowiecki.libtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BenutzerTest" />
         <item itemvalue="Application.SqLiteTest" />
         <item itemvalue="Application.StreamTest" />
         <item itemvalue="Application.LambdaDiceTest" />
         <item itemvalue="Application.LambdaTest1" />
-        <item itemvalue="Application.InjectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -527,7 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740565171899</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="SQLite">
+      <option name="closed" value="true" />
+      <created>1740567990396</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1740567990396</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -557,6 +571,7 @@
     <MESSAGE value="JDBC: PreparedStatements" />
     <MESSAGE value="Aufgabe" />
     <MESSAGE value="Lambdas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambdas" />
+    <MESSAGE value="SQLite" />
+    <option name="LAST_COMMIT_MESSAGE" value="SQLite" />
   </component>
 </project>
