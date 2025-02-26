@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c86822ac-dad7-4899-99a3-c1e7d8ad3edf" name="Changes" comment="Aufgabe" />
+    <list default="true" id="c86822ac-dad7-4899-99a3-c1e7d8ad3edf" name="Changes" comment="Aufgabe">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/InjectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/lambdas/LambdaDiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/lambdas/LambdaTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,61 +46,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayListTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CrudTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DateTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DateTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeclareTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeclareTestChecked.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EinkaufslistenTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EqualsTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.EqualsTest (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.EqualsTest (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.EqualsTest (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.EqualsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionTest3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GCTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InterfaceTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InterfaceTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KaffeeAutomat.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LesenUndSchreiben.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListenTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MulticatchTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjektBeziehungen.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjekteSchreibenUndLesen.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OverloadingTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OwnExceptionTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Pilzsuche.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrinterTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimpleFactoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBuilderTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VerbindungsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VererbungTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.VererbungTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VererbungTest2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;/Users/tlubowiecki/IdeaProjects/jan25playground/src/main/java/de/lubowiecki/uebungen&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tlubowiecki/IdeaProjects/jan25playground&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayListTest.executor": "Run",
+    "Application.CrudTest.executor": "Run",
+    "Application.DateTest1.executor": "Run",
+    "Application.DateTest2.executor": "Run",
+    "Application.DeclareTest.executor": "Run",
+    "Application.DeclareTestChecked.executor": "Run",
+    "Application.EinkaufslistenTest.executor": "Run",
+    "Application.EqualsTest (1).executor": "Run",
+    "Application.EqualsTest (2).executor": "Run",
+    "Application.EqualsTest (3).executor": "Run",
+    "Application.EqualsTest (4).executor": "Run",
+    "Application.EqualsTest.executor": "Run",
+    "Application.ExceptionTest.executor": "Run",
+    "Application.ExceptionTest1.executor": "Run",
+    "Application.ExceptionTest2.executor": "Run",
+    "Application.ExceptionTest3.executor": "Run",
+    "Application.GCTest.executor": "Run",
+    "Application.InjectionTest.executor": "Run",
+    "Application.InterfaceTest.executor": "Run",
+    "Application.InterfaceTest2.executor": "Run",
+    "Application.KaffeeAutomat.executor": "Run",
+    "Application.LambdaDiceTest.executor": "Run",
+    "Application.LambdaTest1.executor": "Run",
+    "Application.LesenUndSchreiben.executor": "Run",
+    "Application.ListenTest1.executor": "Run",
+    "Application.MulticatchTest.executor": "Run",
+    "Application.ObjektBeziehungen.executor": "Run",
+    "Application.ObjekteSchreibenUndLesen.executor": "Run",
+    "Application.OverloadingTest.executor": "Run",
+    "Application.OwnExceptionTest.executor": "Run",
+    "Application.Pilzsuche.executor": "Run",
+    "Application.PrinterTest.executor": "Run",
+    "Application.SimpleFactoryTest.executor": "Run",
+    "Application.SingletonTest.executor": "Run",
+    "Application.StringBuilderTest.executor": "Run",
+    "Application.StringTest.executor": "Run",
+    "Application.VerbindungsTest.executor": "Run",
+    "Application.VererbungTest (1).executor": "Run",
+    "Application.VererbungTest.executor": "Run",
+    "Application.VererbungTest2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/Users/tlubowiecki/IdeaProjects/jan25playground/src/main/java/de/lubowiecki/uebungen",
+    "last_opened_file_path": "/Users/tlubowiecki/IdeaProjects/jan25playground",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="de.lubowiecki.patterns.factory" />
       <recent name="de.lubowiecki.api" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CrudTest">
+  <component name="RunManager" selected="Application.LambdaDiceTest">
     <configuration name="CrudTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.lubowiecki.datenbanken.CrudTest" />
       <module name="jan25playground" />
@@ -109,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.time.DateTest1" />
+    <configuration name="InjectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.datenbanken.InjectionTest" />
       <module name="jan25playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.lubowiecki.time.*" />
+          <option name="PATTERN" value="de.lubowiecki.datenbanken.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.time.DateTest2" />
+    <configuration name="LambdaDiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.lambdas.LambdaDiceTest" />
       <module name="jan25playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.lubowiecki.time.*" />
+          <option name="PATTERN" value="de.lubowiecki.lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.patterns.factory.SimpleFactoryTest" />
+    <configuration name="LambdaTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.lambdas.LambdaTest1" />
       <module name="jan25playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.lubowiecki.patterns.factory.*" />
+          <option name="PATTERN" value="de.lubowiecki.lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaDiceTest" />
+        <item itemvalue="Application.LambdaTest1" />
+        <item itemvalue="Application.InjectionTest" />
         <item itemvalue="Application.CrudTest" />
         <item itemvalue="Application.VerbindungsTest" />
-        <item itemvalue="Application.SimpleFactoryTest" />
-        <item itemvalue="Application.DateTest2" />
-        <item itemvalue="Application.DateTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -500,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740488028389</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Aufgabe">
+      <option name="closed" value="true" />
+      <created>1740488058544</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1740488058544</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="UnknownFeatures">
