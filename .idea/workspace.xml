@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c86822ac-dad7-4899-99a3-c1e7d8ad3edf" name="Changes" comment="Aufgabe">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/InjectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/lambdas/LambdaDiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/lambdas/LambdaTest1.java" afterDir="false" />
+    <list default="true" id="c86822ac-dad7-4899-99a3-c1e7d8ad3edf" name="Changes" comment="Lambdas">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/SQLiteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/SqLiteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/lambdas/StreamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +83,8 @@
     "Application.PrinterTest.executor": "Run",
     "Application.SimpleFactoryTest.executor": "Run",
     "Application.SingletonTest.executor": "Run",
+    "Application.SqLiteTest.executor": "Run",
+    "Application.StreamTest.executor": "Run",
     "Application.StringBuilderTest.executor": "Run",
     "Application.StringTest.executor": "Run",
     "Application.VerbindungsTest.executor": "Run",
@@ -103,20 +106,7 @@
       <recent name="de.lubowiecki.api" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaDiceTest">
-    <configuration name="CrudTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.datenbanken.CrudTest" />
-      <module name="jan25playground" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.lubowiecki.datenbanken.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SqLiteTest">
     <configuration name="InjectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.lubowiecki.datenbanken.InjectionTest" />
       <module name="jan25playground" />
@@ -156,8 +146,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerbindungsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.datenbanken.VerbindungsTest" />
+    <configuration name="SqLiteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.datenbanken.SqLiteTest" />
       <module name="jan25playground" />
       <extension name="coverage">
         <pattern>
@@ -169,13 +159,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.lambdas.StreamTest" />
+      <module name="jan25playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.lubowiecki.lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SqLiteTest" />
+        <item itemvalue="Application.StreamTest" />
         <item itemvalue="Application.LambdaDiceTest" />
         <item itemvalue="Application.LambdaTest1" />
         <item itemvalue="Application.InjectionTest" />
-        <item itemvalue="Application.CrudTest" />
-        <item itemvalue="Application.VerbindungsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -516,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740488058544</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Lambdas">
+      <option name="closed" value="true" />
+      <created>1740565171899</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1740565171899</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -545,6 +556,7 @@
     <MESSAGE value="Patterns: Aufgabe" />
     <MESSAGE value="JDBC: PreparedStatements" />
     <MESSAGE value="Aufgabe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aufgabe" />
+    <MESSAGE value="Lambdas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambdas" />
   </component>
 </project>
