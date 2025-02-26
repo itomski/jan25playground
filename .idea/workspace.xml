@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c86822ac-dad7-4899-99a3-c1e7d8ad3edf" name="Changes" comment="SQLite">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/AbstractCrud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/AbstractEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/Benutzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/BenutzerCrud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/libtest/Benutzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/libtest/BenutzerCrud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/libtest/BenutzerTest.java" afterDir="false" />
+    <list default="true" id="c86822ac-dad7-4899-99a3-c1e7d8ad3edf" name="Changes" comment="SQLite und ORM">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/uebungen/u19/Aufgabe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/SqLiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/datenbanken/SqLiteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -541,7 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740567990396</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="SQLite und ORM">
+      <option name="closed" value="true" />
+      <created>1740574552333</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1740574552333</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -572,6 +572,7 @@
     <MESSAGE value="Aufgabe" />
     <MESSAGE value="Lambdas" />
     <MESSAGE value="SQLite" />
-    <option name="LAST_COMMIT_MESSAGE" value="SQLite" />
+    <MESSAGE value="SQLite und ORM" />
+    <option name="LAST_COMMIT_MESSAGE" value="SQLite und ORM" />
   </component>
 </project>
