@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c86822ac-dad7-4899-99a3-c1e7d8ad3edf" name="Changes" comment="Aufgabe">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/collections/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/collections/ContainerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/collections/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/collections/QueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/collections/SetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/collections/Thing.java" afterDir="false" />
+    <list default="true" id="c86822ac-dad7-4899-99a3-c1e7d8ad3edf" name="Changes" comment="Collections">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/collections/MapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +74,7 @@
     "Application.LesenUndSchreiben.executor": "Run",
     "Application.ListTest.executor": "Run",
     "Application.ListenTest1.executor": "Run",
+    "Application.MapTest.executor": "Run",
     "Application.MulticatchTest.executor": "Run",
     "Application.ObjektBeziehungen.executor": "Run",
     "Application.ObjekteSchreibenUndLesen.executor": "Run",
@@ -114,7 +110,7 @@
       <recent name="de.lubowiecki.api" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueTest">
+  <component name="RunManager" selected="Application.MapTest">
     <configuration name="ContainerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.lubowiecki.collections.ContainerTest" />
       <module name="jan25playground" />
@@ -128,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.collections.ListTest" />
+    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.collections.MapTest" />
       <module name="jan25playground" />
       <extension name="coverage">
         <pattern>
@@ -182,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapTest" />
         <item itemvalue="Application.QueueTest" />
         <item itemvalue="Application.QueueTest (1)" />
         <item itemvalue="Application.SetTest" />
         <item itemvalue="Application.ContainerTest" />
-        <item itemvalue="Application.ListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -559,14 +555,21 @@
       <option name="project" value="LOCAL" />
       <updated>1740577515354</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Collections">
+      <option name="closed" value="true" />
+      <created>1740738162032</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1740738162033</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="content.txt" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update: Pilzsuche" />
     <MESSAGE value="Update: OOP" />
     <MESSAGE value="Update: Wrapper" />
     <MESSAGE value="Update: Wrapper und Arrays" />
@@ -591,6 +594,7 @@
     <MESSAGE value="SQLite" />
     <MESSAGE value="SQLite und ORM" />
     <MESSAGE value="Aufgabe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aufgabe" />
+    <MESSAGE value="Collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collections" />
   </component>
 </project>
