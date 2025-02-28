@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c86822ac-dad7-4899-99a3-c1e7d8ad3edf" name="Changes" comment="SQLite und ORM">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/uebungen/u19/Aufgabe.java" afterDir="false" />
+    <list default="true" id="c86822ac-dad7-4899-99a3-c1e7d8ad3edf" name="Changes" comment="Aufgabe">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/collections/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/collections/ContainerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/collections/ListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/collections/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/collections/SetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/lubowiecki/collections/Thing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +53,7 @@
   "keyToString": {
     "Application.ArrayListTest.executor": "Run",
     "Application.BenutzerTest.executor": "Run",
+    "Application.ContainerTest.executor": "Run",
     "Application.CrudTest.executor": "Run",
     "Application.DateTest1.executor": "Run",
     "Application.DateTest2.executor": "Run",
@@ -71,6 +77,7 @@
     "Application.LambdaDiceTest.executor": "Run",
     "Application.LambdaTest1.executor": "Run",
     "Application.LesenUndSchreiben.executor": "Run",
+    "Application.ListTest.executor": "Run",
     "Application.ListenTest1.executor": "Run",
     "Application.MulticatchTest.executor": "Run",
     "Application.ObjektBeziehungen.executor": "Run",
@@ -79,6 +86,9 @@
     "Application.OwnExceptionTest.executor": "Run",
     "Application.Pilzsuche.executor": "Run",
     "Application.PrinterTest.executor": "Run",
+    "Application.QueueTest (1).executor": "Run",
+    "Application.QueueTest.executor": "Run",
+    "Application.SetTest.executor": "Run",
     "Application.SimpleFactoryTest.executor": "Run",
     "Application.SingletonTest.executor": "Run",
     "Application.SqLiteTest.executor": "Run",
@@ -104,13 +114,13 @@
       <recent name="de.lubowiecki.api" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BenutzerTest">
-    <configuration name="BenutzerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.libtest.BenutzerTest" />
+  <component name="RunManager" selected="Application.QueueTest">
+    <configuration name="ContainerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.collections.ContainerTest" />
       <module name="jan25playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.lubowiecki.libtest.*" />
+          <option name="PATTERN" value="de.lubowiecki.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaDiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.lambdas.LambdaDiceTest" />
+    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.collections.ListTest" />
       <module name="jan25playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.lubowiecki.lambdas.*" />
+          <option name="PATTERN" value="de.lubowiecki.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.lambdas.LambdaTest1" />
+    <configuration name="QueueTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.collections.QueueTest" />
       <module name="jan25playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.lubowiecki.lambdas.*" />
+          <option name="PATTERN" value="de.lubowiecki.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SqLiteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.datenbanken.SqLiteTest" />
+    <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.collections.QueueTest" />
       <module name="jan25playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.lubowiecki.datenbanken.*" />
+          <option name="PATTERN" value="de.lubowiecki.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.lambdas.StreamTest" />
+    <configuration name="SetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.lubowiecki.collections.SetTest" />
       <module name="jan25playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.lubowiecki.lambdas.*" />
+          <option name="PATTERN" value="de.lubowiecki.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BenutzerTest" />
-        <item itemvalue="Application.SqLiteTest" />
-        <item itemvalue="Application.StreamTest" />
-        <item itemvalue="Application.LambdaDiceTest" />
-        <item itemvalue="Application.LambdaTest1" />
+        <item itemvalue="Application.QueueTest" />
+        <item itemvalue="Application.QueueTest (1)" />
+        <item itemvalue="Application.SetTest" />
+        <item itemvalue="Application.ContainerTest" />
+        <item itemvalue="Application.ListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -541,7 +551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740574552333</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Aufgabe">
+      <option name="closed" value="true" />
+      <created>1740577515354</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1740577515354</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -569,10 +587,10 @@
     <MESSAGE value="Patterns: JDBC" />
     <MESSAGE value="Patterns: Aufgabe" />
     <MESSAGE value="JDBC: PreparedStatements" />
-    <MESSAGE value="Aufgabe" />
     <MESSAGE value="Lambdas" />
     <MESSAGE value="SQLite" />
     <MESSAGE value="SQLite und ORM" />
-    <option name="LAST_COMMIT_MESSAGE" value="SQLite und ORM" />
+    <MESSAGE value="Aufgabe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aufgabe" />
   </component>
 </project>
